@@ -52,8 +52,34 @@ alert("Hola "+ name1);
 
 number3+= 10;
 
-document.write(number3)
+document.writeln(number3)
 
 number2 --;
 
 alert(number2)
+
+// Concatenacion 
+
+saludo = "Hola pedro"
+Pregunta = "¿Ya vienes?"
+// Apenas el string detecta una cadena de texto que es la comilla, se concatena mas no se suma
+frase = `${saludo } ¿Como estas? ${ Pregunta }`;
+
+document.writeln(frase);
+
+// Operadores logicos y de comparacion
+
+document.write(number1!=number2 || number3>number1);
+
+// Condicionales
+
+if (nombre == "Digo") {
+    alert("Ingresaste")
+}else if (name1 == "Pepe") {
+    alert(`cambaiste de nombre por ${name1}`)
+}else{
+    alert(`No estas registrado`)
+}
+
+
+
