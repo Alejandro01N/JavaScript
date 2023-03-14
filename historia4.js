@@ -1,3 +1,4 @@
+
 class operacionesMatematicas{
     constructor(num1,num2, raiz){
         this.num1 = num1;
@@ -83,3 +84,5 @@ if(operacion >= 1 && operacion<=5){
 }else {
     alert(`No has ingresado un valor correcto`)
 }
+
+
